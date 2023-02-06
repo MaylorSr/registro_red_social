@@ -1,0 +1,59 @@
+{
+	"info": {
+		"_postman_id": "c1156c5a-0fb0-4460-a10b-3eb7c2c0c922",
+		"name": "Red_Social",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23783409"
+	},
+	"item": [
+		{
+			"name": "GetAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/user/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"userName\":\"MaylorSr\",\r\n    \"email\":\"maylorbustamante2001@hotmail.com\",\r\n    \"password\":\"Maylor1245!\",\r\n    \"verifyPassword\":\"Maylor1245!\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/user/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"user",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
